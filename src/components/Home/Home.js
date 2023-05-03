@@ -2,6 +2,7 @@ import React,{useState} from "react";
 import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 import data from '../data.json';
+
 import carouselimg1 from '../images/carouselimg1.webp'
 import carouselimg2 from '../images/carouselimg2.webp'
 import carouselimg3 from '../images/carouselimg3.webp'
