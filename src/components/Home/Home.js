@@ -5,8 +5,7 @@ import data from '../data.json';
 import carouselimg1 from '../images/carouselimg1.webp'
 import carouselimg2 from '../images/carouselimg2.webp'
 import carouselimg3 from '../images/carouselimg3.webp'
-import Signup from "../Signup/Signup";
-
+import { Link,  } from "react-router-dom";
 function Home(props) {
   
   const [cart, setCart] = useState(0);
@@ -110,8 +109,15 @@ shopping_cart
   
   }
   
-  </div>   </div> : <>pls Login/SignUp
-  </>}
+  </div>   </div> : <>
+  <span>
+
+  <Link to="/signup">Sign up</Link>
+  </span>
+  <span>
+              <Link to="/login">Login</Link>
+            </span>
+      </>}
     </div>
   );
 }
