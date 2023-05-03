@@ -113,6 +113,7 @@ shopping_cart
   <span>
 
   <Link to="/signup">Sign up</Link>
+  
   </span>
   <span>
               <Link to="/login">Login</Link>
