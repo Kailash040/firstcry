@@ -97,6 +97,7 @@ shopping_cart
 
 
 <div className={styles.card}>
+  
   <img src={record.icon} alt="Denim Jeans" />
  
   <p className={styles.price}>{record.price}</p>
@@ -113,7 +114,7 @@ shopping_cart
   <span>
 
   <Link to="/signup">Sign up</Link>
-  
+
   </span>
   <span>
               <Link to="/login">Login</Link>
